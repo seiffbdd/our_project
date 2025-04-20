@@ -11,12 +11,12 @@ class LoginView extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('Please log in.'),
+            const Text('Please log in to continue.'),
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: const Text('Back to Homedcds'),
+              child: const Text('Back to Home'),
             ),
           ],
         ),
